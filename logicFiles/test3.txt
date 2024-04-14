@@ -1,0 +1,8 @@
+Odia(x, y)
+Hombre(x)
+Pompeyano(x)
+∀x Pompeyano(x) => Romano(x)
+Gobernante(y)
+∀x Romano(x) => (Leal(x, y) ∨ Odia(x, y))
+∀x ∀y (Hombre(x) ∧ Gobernante(y) ∧ IntentaAsesinar(x, y)) => -Leal(x, y)
+IntentaAsesinar(x, y)

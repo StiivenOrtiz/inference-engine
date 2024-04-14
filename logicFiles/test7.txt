@@ -1,0 +1,6 @@
+Amigo(Carlos, Juan)
+Hombre(Carlos)
+Hombre(Juan)
+Amable(Carlos)
+Deshonesto(Juan)
+∀x ∀y (Hombre(x) ∧ Hombre(y)) => (Amigo(x, y) <=> (Amable(x) ∧ ¬Deshonesto(y)))

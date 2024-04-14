@@ -1,0 +1,8 @@
+Odia(Marco, Cesar)
+Hombre(Marco)
+Pompeyano(Marco)
+∀x Pompeyano(x) => Romano(x)
+Gobernante(Cesar)
+∀x Romano(x) => (Leal(x, Cesar) ∨ Odia(x, Cesar))
+∀x ∀y (Hombre(x) ∧ Gobernante(y) ∧ IntentaAsesinar(x, y)) => -Leal(x, y)
+IntentaAsesinar(Marco, Cesar)

@@ -1,0 +1,3 @@
+Canta(x)
+Canta(x) ∨ Baila(x)
+-Baila(x)

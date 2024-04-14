@@ -1,0 +1,8 @@
+Amigo(Juan, Ana)
+Hombre(Juan)
+Mujer(Ana)
+Amable(Juan)
+Amable(Ana)
+∀x ∀y (Hombre(x) ∧ Mujer(y) ∧ Amable(x) ∧ Amable(y)) => Amigo(x, y)
+∀x (Hombre(x) ∧ Mujer(Ana)) => Amigo(x, Ana)
+∀x ∀y (Hombre(x) ∧ Mujer(y) ∧ Amigo(x, y)) => -Odia(x, y)

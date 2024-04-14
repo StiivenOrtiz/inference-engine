@@ -1,0 +1,7 @@
+Enemigo(Carlos, Pablo)
+Hombre(Carlos)
+Hombre(Pablo)
+∀x (Hombre(x) ∧ Rico(x)) => Poderoso(x)
+Rico(Carlos)
+Pobre(Pablo)
+∀x ∀y (Poderoso(x) ∧ Pobre(y)) => Enemigo(x, y)

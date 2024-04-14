@@ -1,0 +1,4 @@
+TieneGato(Ana) ∨ TieneGato(Ben) ∨ TieneGato(Carla)
+Amigo(Ana, Ben)
+-Amigo(Carla,Ana)
+-Amigo(Carla,Ben)
